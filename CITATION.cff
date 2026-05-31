@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "genesis-q4-core: 16-State Q4 Space with Gray-Code and Tesseract Topology"
+version: 0.1.0
+date-released: "2026-05-31"
+authors:
+  - family-names: Römer
+    given-names: Johann
+    email: joberoemer@gmail.com
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - name: "MOR Research Collective"
+repository-code: "https://github.com/GenesisAeon/genesis-q4-core"
+url: "https://github.com/GenesisAeon/genesis-q4-core"
+abstract: >
+  genesis-q4-core implements the mathematical foundation of the GenesisAeon
+  cognitive runtime: a 16-state (4-bit) Q4 state space with Gray-Code
+  encoding and 4D Tesseract (hypercube) topology. 16 states = 4 bit
+  (H = log2(16) = 4 bit). No external dependencies. Fully tested.
+keywords:
+  - gray-code
+  - state-machine
+  - tesseract
+  - hypercube
+  - information-theory
+  - genesisaeon
+  - crep
+license: MIT
+doi: "10.5281/zenodo.XXXXXXX"
