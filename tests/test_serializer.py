@@ -1,13 +1,13 @@
 """Tests for Q4State serialization."""
 
 import json
-import pytest
+
 from genesis_q4.serializer import (
-    state_to_dict,
     state_from_dict,
-    state_to_json,
     state_from_json,
     state_space_to_json,
+    state_to_dict,
+    state_to_json,
 )
 from genesis_q4.state import Q4State
 

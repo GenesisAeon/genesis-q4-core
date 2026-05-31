@@ -1,8 +1,8 @@
 """Tests for the Tesseract graph topology."""
 
-from genesis_q4.tesseract import Tesseract
-from genesis_q4.state import Q4State
 from genesis_q4.constants import TESSERACT_EDGES, TESSERACT_VERTICES
+from genesis_q4.state import Q4State
+from genesis_q4.tesseract import Tesseract
 
 
 def test_vertex_count():

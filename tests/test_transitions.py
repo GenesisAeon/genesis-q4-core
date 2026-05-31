@@ -1,9 +1,8 @@
 """Tests for Q4TransitionValidator."""
 
 import pytest
-from genesis_q4.transitions import Q4TransitionValidator, InvalidTransitionError
-from genesis_q4.state import Q4State
-from genesis_q4.gray_code import GrayCode
+
+from genesis_q4.transitions import InvalidTransitionError, Q4TransitionValidator
 
 
 def test_valid_transition_adjacent():

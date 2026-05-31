@@ -1,8 +1,9 @@
 """Tests for GrayCode — including the Hamming=1 invariant."""
 
 import pytest
-from genesis_q4.gray_code import GrayCode
+
 from genesis_q4.constants import GRAY_ORDER
+from genesis_q4.gray_code import GrayCode
 
 
 def test_encode_decode_roundtrip_all():
@@ -20,7 +21,7 @@ def test_hamming_invariant_all_consecutive_pairs():
     for n in range(15):
         dist = GrayCode.hamming_distance(GrayCode.encode(n), GrayCode.encode(n + 1))
         assert dist == 1, (
-            f"Hamming distance between gray({n}) and gray({n+1}) is {dist}, expected 1"
+            f"Hamming distance between gray({n}) and gray({n + 1}) is {dist}, expected 1"
         )
 
 
@@ -35,7 +36,7 @@ def test_hamming_distance_all_bits_differ():
 
 def test_gray_order_constant_matches_full_sequence():
     """GRAY_ORDER must match the canonical GrayCode.full_sequence()."""
-    assert GRAY_ORDER == GrayCode.full_sequence()
+    assert GrayCode.full_sequence() == GRAY_ORDER
 
 
 def test_gray_order_has_16_entries():
@@ -51,7 +52,7 @@ def test_gray_order_all_adjacent_pairs_hamming_1():
     for i in range(15):
         a, b = GRAY_ORDER[i], GRAY_ORDER[i + 1]
         dist = GrayCode.hamming_distance(a, b)
-        assert dist == 1, f"GRAY_ORDER[{i}]={a} and [{i+1}]={b}: Hamming={dist}"
+        assert dist == 1, f"GRAY_ORDER[{i}]={a} and [{i + 1}]={b}: Hamming={dist}"
 
 
 def test_validate_sequence_valid():

@@ -1,6 +1,7 @@
 """Tests for Q4State."""
 
 import pytest
+
 from genesis_q4.state import Q4State
 
 
