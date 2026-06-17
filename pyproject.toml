@@ -1,6 +1,6 @@
 [project]
 name = "genesis-q4-core"
-version = "0.1.0"
+version = "1.0.0"
 description = "16-state Q4 space with Gray-Code encoding and Tesseract topology — the mathematical foundation of GenesisAeon"
 readme = "README.md"
 license = { text = "MIT" }

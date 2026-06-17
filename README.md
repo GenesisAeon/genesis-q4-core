@@ -185,7 +185,19 @@ Subsequent phases integrate Q4 into:
 - `unified-mandala` — GrayGrid + Tesseract visualisation
 - `HexaAgent` — Agent roles with Q4-aware memory and replay
 
+## Role in the GenesisAeon Ecosystem
+
+`genesis-q4-core` is **P-Q4** in the GenesisAeon ecosystem registry,
+covering the domain of the Q4 16-state space, Gray-Code encoding, and
+Tesseract topology. It is a Tier T0, zero-dependency foundational package
+consumed by `genesis-os`, `sigillin`, `unified-mandala`, and `HexaAgent`.
+
 ## Citation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PLACEHOLDER.svg)](https://doi.org/10.5281/zenodo.PLACEHOLDER)
+
+DOI will be assigned automatically on first GitHub Release once
+Zenodo–GitHub integration is enabled for this repo.
 
 ```bibtex
 @software{genesis_q4_core_2026,
