@@ -5,7 +5,7 @@
 [![PyPI](https://img.shields.io/pypi/v/genesis-q4-core)](https://pypi.org/project/genesis-q4-core/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20788540.svg)](https://doi.org/10.5281/zenodo.20788540)
 
 The mathematical foundation of the [GenesisAeon](https://github.com/GenesisAeon) cognitive runtime:
 a fully tested, zero-dependency Python library for the 16-state Q4 state space.
@@ -194,17 +194,14 @@ consumed by `genesis-os`, `sigillin`, `unified-mandala`, and `HexaAgent`.
 
 ## Citation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PLACEHOLDER.svg)](https://doi.org/10.5281/zenodo.PLACEHOLDER)
-
-DOI will be assigned automatically on first GitHub Release once
-Zenodo–GitHub integration is enabled for this repo.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20788540.svg)](https://doi.org/10.5281/zenodo.20788540)
 
 ```bibtex
 @software{genesis_q4_core_2026,
   author  = {Römer, Johann and {MOR Research Collective}},
   title   = {genesis-q4-core: 16-State Q4 Space with Gray-Code and Tesseract Topology},
   year    = {2026},
-  doi     = {10.5281/zenodo.XXXXXXX},
+  doi     = {10.5281/zenodo.20788540},
   url     = {https://github.com/GenesisAeon/genesis-q4-core},
 }
 ```
