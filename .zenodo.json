@@ -1,5 +1,5 @@
 {
-  "title": "genesis-q4-core — P-Q4: 16-state Q4 space with Gray-Code encoding and Tesseract topology — the mathematical foundation of GenesisAeon",
+  "title": "genesis-q4-core — P86 (formerly P-Q4): 16-state Q4 space with Gray-Code encoding and Tesseract topology — the mathematical foundation of GenesisAeon",
   "description": "<p>16-state Q4 space with Gray-Code encoding and Tesseract topology — the mathematical foundation of GenesisAeon</p><p>Part of the <strong>GenesisAeon</strong> ecosystem (P-Q4, domain: Q4 16-state space / Gray-code / Tesseract topology).</p><p>See <a href=\"https://github.com/GenesisAeon/genesis-q4-core\">github.com/GenesisAeon/genesis-q4-core</a> for source, documentation, and reproducibility notebooks.</p>",
   "creators": [
     {

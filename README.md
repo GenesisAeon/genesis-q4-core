@@ -187,7 +187,7 @@ Subsequent phases integrate Q4 into:
 
 ## Role in the GenesisAeon Ecosystem
 
-`genesis-q4-core` is **P-Q4** in the GenesisAeon ecosystem registry,
+`genesis-q4-core` is **P86** (formerly informally **P-Q4**) in the GenesisAeon ecosystem registry,
 covering the domain of the Q4 16-state space, Gray-Code encoding, and
 Tesseract topology. It is a Tier T0, zero-dependency foundational package
 consumed by `genesis-os`, `sigillin`, `unified-mandala`, and `HexaAgent`.
